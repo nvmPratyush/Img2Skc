@@ -5,9 +5,9 @@ This simple Python script converts a regular image into a sketch using the OpenC
 
 ## How to Use
 
-### Raw image <img src="Pratyush/Pratyush.jpg" alt="">
+### Raw image            <img src="Pratyush/Pratyush.jpg" alt="Raw image" height="100px" width="auto">
 
-### Sketch imge <img src="Pratyush/Pratyush_skech.jpg" alt="">
+### Sketch image             <img src="Pratyush/Pratyush_skech.png" alt="Sketch image" height="100px" width="auto">
 
 ## How to Use
 
