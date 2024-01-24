@@ -1,16 +1,22 @@
 import cv2
 
-image = cv2.imread("Pratyush.jpg")
+# Load the image
+image = cv2.imread("[your image].jpg")
 
+# Convert the image to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
+# Invert the grayscale image
 invert = cv2.bitwise_not(gray)
 
-blur = cv2.GaussianBlur(invert, (21,21),0)
+# Apply Gaussian Blur to the inverted image
+blur = cv2.GaussianBlur(invert, (21,21), 0)
 
+# Invert the blurred image
 inverted_blur = cv2.bitwise_not(blur)
 
-skech = cv2.divide(gray, inverted_blur, scale=256.0)
+# Create the sketch by dividing the grayscale image by the inverted blurred image
+sketch = cv2.divide(gray, inverted_blur, scale=256.0)
 
-cv2.imwrite('Pratyush_skech.png', skech)
-
+# Save the resulting sketch
+cv2.imwrite('[Your new sketch image file name].png', sketch)
