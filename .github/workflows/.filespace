@@ -52,7 +52,7 @@
     .pass
     for * (
         get.objet: python,
-        get.libray: math
+        get.libray: OpenCV
         get
     )
 }
