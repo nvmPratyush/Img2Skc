@@ -2,6 +2,13 @@
 
 This simple Python script converts a regular image into a sketch using the OpenCV library. The resulting sketch has a pencil-drawing effect, providing a unique and artistic transformation to your images.
 
+
+## How to Use
+
+### Raw image <img src="Pratyush/Pratyush.jpg" alt="">
+
+### Sketch imge <img src="Pratyush/Pratyush_skech.jpg" alt="">
+
 ## How to Use
 
 1. Make sure you have Python installed on your system.
